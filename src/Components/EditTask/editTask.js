@@ -40,7 +40,7 @@ export class EditTaskComponent extends React.Component{
             catogery:this.state.currCategory    
         }  
         //this.props.editTask(NewTask);
-        this.props.history.push('/Home');
+        this.props.history.push('/');
     }
 
     changeCategory(selectedCategory){
