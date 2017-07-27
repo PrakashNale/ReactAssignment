@@ -47,7 +47,7 @@ class CreateTasks extends React.Component{
             catogery:this.state.currCategory    
         }
         this.props.onTaskAdd(NewTask);
-        this.props.history.push('/Home');
+        this.props.history.push('/');
     }
 
     changeCategory(selectedCategory){
