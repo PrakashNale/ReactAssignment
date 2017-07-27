@@ -39,7 +39,7 @@ class App extends Component {
           <div >           
 
              <Route path="/About" component={AboutComponent} ></Route>
-             <Route path="/Home" component={() => (<HomeComponent onTaskDelete = {this.onTaskDelete.bind(this)} allTasks = {visibleTasks} currentUser={this.state.currentUser} />)}></Route>
+             <Route exact path="/" component={() => (<HomeComponent onTaskDelete = {this.onTaskDelete.bind(this)} allTasks = {visibleTasks} currentUser={this.state.currentUser} />)}></Route>
              <Route path="/createTask" component={() => (<CreateTasks onTaskAdd = {this.onTaskAdd.bind(this)} currentUser={this.state.currentUser} />)}></Route>
              <Route path="/editTask/:id" component={  EditTaskComponent } ></Route>
           </div>  
