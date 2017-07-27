@@ -1,0 +1,11 @@
+header{
+    background-color: #c2f0f0;
+     width:100%;
+    /* Height:150px; */
+}
+
+.currentUser{
+    margin-top:20px;
+    font-size: xx-large;
+    margin-left:20px;
+}

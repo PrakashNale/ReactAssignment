@@ -1,0 +1,21 @@
+thead{
+    background-color: lightgrey;
+}
+.taskList{
+    margin:10px;
+    width:99%;
+   max-height:300px;
+}
+
+th div:hover{
+    cursor: pointer; cursor: hand;
+}
+
+
+
+th, td{
+    text-align: center;
+}
+.sorticon{
+    padding:5px;
+}
